@@ -1,0 +1,174 @@
+
+* {
+	padding: 0;
+	margin: 0;	
+  }
+
+.Header {
+    height: 100px;
+    background-color: #000000;
+}
+
+.Inside-header {
+    display: flex;
+    align-items: row;
+    flex-flow: row wrap;
+}
+
+.logo {
+    width: 130px;
+    height: 100px;
+    flex: 1;
+}
+
+.middle {
+    flex: 8;
+    background-color: #201F1FB9;
+}
+
+.navigator {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side-Nav {
+    width: 11%;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-model {
+	display: none;
+}
+
+.check {
+    cursor: pointer;
+	border: 0.1rem solid #000000;
+	padding: 1rem;
+	font-weight: bold;
+	border-bottom: 0;
+}
+
+.check:hover {
+	background-color: #41A9F4;
+}
+
+.check:last-child {
+	border-bottom: 0.1rem solid #000000;
+}
+
+.Book {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.button-container {
+	display: flex;
+	width: 10rem;
+	align-content: centre;
+	flex-wrap: wrap;
+}
+
+.primary-container {
+	width: 10rem;
+}
+.datepicker{
+	width:100px;
+	height: 100px;
+}
+
+.item-name {
+	width: 10rem;
+	cursor: pointer;
+}
+
+.description {
+	border: 0.1rem solid black;
+	height: 5rem;
+	width: 60rem;
+	font-size: 1rem;
+
+}
+
+.primary-button {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.item-types {
+	display: flex;
+	width: 10rem;
+	padding: 0.2rem;
+}
+
+.item-sub-type-heading {
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.item-sub-type-body {
+	margin: 0 auto;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.book-now {
+	background: #00FF00;
+}
+
+.book-on-avail {
+	background: #CDA000;
+}
+
+.not-avail {
+	background: #C2132E;
+}
+
+.search {
+	background: #A03E67;
+}
+
+.resultcontainer {
+	display: flex;
+	flex-direction: column;
+	width: 60rem;
+	height: 15rem;
+	border: 0.1rem solid #000000;
+	flex-wrap: wrap;
+}
+
+.logo-image {
+	width: 7rem;
+	heigth: 7rem;
+}
+
+button {
+	font-weight: bold;
+	width: 12rem;
+	height: 2rem;
+	cursor: pointer;
+}
+
+.searchbox {
+	height: 2rem;
+	width: 20rem;
+}
+
+.content-Area {
+	margin: 0.1rem;
+}
+
+.side-Nav {
+	margin: 0.1rem;
+}
+
+.item-description {
+	display: none;
+}
